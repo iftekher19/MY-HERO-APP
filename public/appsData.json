@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "title": "Forest: Focus For Productivity",
+        "companyName": "Productive.io",
+        "image": "https://i.ibb.co/gMM4FRDL/demo-app-1.webp",
+        "description": "A gamified focus timer that helps you stay productive and plant virtual trees while staying away from your phone.",
+        "size": 258,
+        "reviews": 54000,
+        "ratingAvg": 4.9,
+        "downloads": 9000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 3400
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 12000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "SmPlan: ToDo List With Reminder",
+        "companyName": "Planify",
+        "image": "https://i.ibb.co/Z64z64zT/demo-app-2.webp",
+        "description": "Organize your life with customizable tasks, reminders, and color-coded labels that keep you on track.",
+        "size": 291,
+        "reviews": 32000,
+        "ratingAvg": 4.7,
+        "downloads": 8100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 3800
+            },
+            {
+                "name": "4 star",
+                "count": 5600
+            },
+            {
+                "name": "5 star",
+                "count": 8600
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "FLIP: Focus Timer For Study",
+        "companyName": "HabitLab",
+        "image": "https://i.ibb.co/DPhqr3br/demo-app-3.webp",
+        "description": "A lock mode study timer that tracks productivity and keeps you focused with clean UI and study stats.",
+        "size": 185,
+        "reviews": 40000,
+        "ratingAvg": 4.8,
+        "downloads": 12500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 500
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 2600
+            },
+            {
+                "name": "4 star",
+                "count": 4800
+            },
+            {
+                "name": "5 star",
+                "count": 10200
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Pomocat: Cute Pomodoro Timer",
+        "companyName": "Furry Labs",
+        "image": "https://i.ibb.co/R4GJJdSR/demo-app-4.webp",
+        "description": "A cute, animated cat-themed Pomodoro timer that rewards you for studying longer.",
+        "size": 150,
+        "reviews": 23000,
+        "ratingAvg": 4.6,
+        "downloads": 7000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2800
+            },
+            {
+                "name": "4 star",
+                "count": 4200
+            },
+            {
+                "name": "5 star",
+                "count": 8500
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Time Planner: Schedule & Tasks",
+        "companyName": "JadeWorks",
+        "image": "https://i.ibb.co/XkVhfvV3/demo-app-5.webp",
+        "description": "Visualize and manage your tasks in style with powerful scheduling tools and beautiful analytics.",
+        "size": 212,
+        "reviews": 35000,
+        "ratingAvg": 4.8,
+        "downloads": 6600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 3000
+            },
+            {
+                "name": "4 star",
+                "count": 5000
+            },
+            {
+                "name": "5 star",
+                "count": 9500
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Morning Habits - Daily Routine",
+        "companyName": "BetterDays",
+        "image": "https://i.ibb.co/WvvqFYPT/demo-app-6.webp",
+        "description": "Start your day with guided routines, mindfulness, and productivity tips that build healthy habits.",
+        "size": 260,
+        "reviews": 17000,
+        "ratingAvg": 4.5,
+        "downloads": 4200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 600
+            },
+            {
+                "name": "2 star",
+                "count": 1100
+            },
+            {
+                "name": "3 star",
+                "count": 2400
+            },
+            {
+                "name": "4 star",
+                "count": 4400
+            },
+            {
+                "name": "5 star",
+                "count": 7000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Focus Plant: Pomodoro Forest",
+        "companyName": "GreenMind Studio",
+        "image": "https://i.ibb.co/B1MN0LK/focus7.png",
+        "description": "Turn focus sessions into growing digital plants and earn rewards for staying concentrated.",
+        "size": 275,
+        "reviews": 48000,
+        "ratingAvg": 4.9,
+        "downloads": 9800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 600
+            },
+            {
+                "name": "3 star",
+                "count": 2300
+            },
+            {
+                "name": "4 star",
+                "count": 4600
+            },
+            {
+                "name": "5 star",
+                "count": 10600
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Alarmy - Alarm Clock & Sleep",
+        "companyName": "SleepTech",
+        "image": "https://i.ibb.co/4RTc5PJZ/8.png",
+        "description": "A smart alarm app that forces you out of bed with fun tasks like puzzles or photos to turn it off!",
+        "size": 312,
+        "reviews": 51000,
+        "ratingAvg": 4.8,
+        "downloads": 15000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 3200
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 13000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Habitica: Gamify Your Life",
+        "companyName": "HabitRPG",
+        "image": "https://i.ibb.co/6JgdtSWb/9.png",
+        "description": "Bring RPG-style fun to your to-do list — earn rewards, battle monsters, and level up by completing real-world tasks.",
+        "size": 190,
+        "reviews": 41000,
+        "ratingAvg": 4.7,
+        "downloads": 8300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 2800
+            },
+            {
+                "name": "4 star",
+                "count": 5000
+            },
+            {
+                "name": "5 star",
+                "count": 9600
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Calmly: Meditation & Relax",
+        "companyName": "MindFlow Labs",
+        "image": "https://i.ibb.co/NcVG6k4/10.png",
+        "description": "Meditation sessions and soothing nature sounds to help you relax, sleep, and focus better.",
+        "size": 325,
+        "reviews": 55000,
+        "ratingAvg": 4.9,
+        "downloads": 20000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2600
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 15800
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Notedown: Simple Notes",
+        "companyName": "WriteWell Co.",
+        "image": "https://i.ibb.co/jvGB40tm/11.png",
+        "description": "A minimalist note-taking app focused on speed, simplicity, and cloud sync.",
+        "size": 120,
+        "reviews": 25000,
+        "ratingAvg": 4.5,
+        "downloads": 4600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1200
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 3200
+            },
+            {
+                "name": "4 star",
+                "count": 4600
+            },
+            {
+                "name": "5 star",
+                "count": 8500
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "StudyIQ: Smart Learning",
+        "companyName": "EduWave",
+        "image": "https://i.ibb.co/ymp7kBvh/12.png",
+        "description": "Interactive study materials, quizzes, and daily challenges for smarter exam preparation.",
+        "size": 410,
+        "reviews": 68000,
+        "ratingAvg": 4.6,
+        "downloads": 9500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000
+            },
+            {
+                "name": "2 star",
+                "count": 1400
+            },
+            {
+                "name": "3 star",
+                "count": 3000
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 13200
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "FitTrack: Daily Exercise",
+        "companyName": "BodyMind Co.",
+        "image": "https://i.ibb.co/Kpf1LGLm/13.png",
+        "description": "Track your exercise, calories, and fitness progress with elegant analytics and reminders.",
+        "size": 280,
+        "reviews": 21000,
+        "ratingAvg": 4.4,
+        "downloads": 6400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1400
+            },
+            {
+                "name": "3 star",
+                "count": 4200
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 7200
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "MindMapz: Idea Visualizer",
+        "companyName": "Brainstorm Inc.",
+        "image": "https://i.ibb.co/d0Ldtr33/14.png",
+        "description": "Create beautiful mind maps and visualize complex ideas interactively.",
+        "size": 360,
+        "reviews": 29000,
+        "ratingAvg": 4.6,
+        "downloads": 5100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 700
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 2500
+            },
+            {
+                "name": "4 star",
+                "count": 4200
+            },
+            {
+                "name": "5 star",
+                "count": 7800
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "ZenQuote: Daily Motivation",
+        "companyName": "CalmThoughts",
+        "image": "https://i.ibb.co/SXwBx4vz/15.png",
+        "description": "Receive inspiring quotes and daily reflections to power your mindset every morning.",
+        "size": 110,
+        "reviews": 18000,
+        "ratingAvg": 4.5,
+        "downloads": 5300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 800
+            },
+            {
+                "name": "3 star",
+                "count": 2700
+            },
+            {
+                "name": "4 star",
+                "count": 4600
+            },
+            {
+                "name": "5 star",
+                "count": 7000
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Budgetly: Expense Tracker",
+        "companyName": "FinSave Tech",
+        "image": "https://i.ibb.co/dwjy2NG1/16.png",
+        "description": "Manage finances and track expenses effortlessly with powerful reports and reminders.",
+        "size": 195,
+        "reviews": 24000,
+        "ratingAvg": 4.7,
+        "downloads": 8500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2700
+            },
+            {
+                "name": "4 star",
+                "count": 5100
+            },
+            {
+                "name": "5 star",
+                "count": 9500
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "NoteHub: Collaborative Notes",
+        "companyName": "TeamX",
+        "image": "https://i.ibb.co/G4jp0njJ/17.png",
+        "description": "Real-time collaborative notes and meeting summaries built for teams.",
+        "size": 244,
+        "reviews": 33000,
+        "ratingAvg": 4.6,
+        "downloads": 9100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1100
+            },
+            {
+                "name": "2 star",
+                "count": 1000
+            },
+            {
+                "name": "3 star",
+                "count": 2600
+            },
+            {
+                "name": "4 star",
+                "count": 5200
+            },
+            {
+                "name": "5 star",
+                "count": 9500
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "LangHero: Learn Languages",
+        "companyName": "LingoTech",
+        "image": "https://i.ibb.co/s4kgnmP/18.png",
+        "description": "Interactive lessons, games, and AI chat partners to help you master new languages quickly.",
+        "size": 400,
+        "reviews": 60000,
+        "ratingAvg": 4.8,
+        "downloads": 19000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 3400
+            },
+            {
+                "name": "4 star",
+                "count": 6000
+            },
+            {
+                "name": "5 star",
+                "count": 14500
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "DailyFit: 7 Minute Workout",
+        "companyName": "QuickBurn Apps",
+        "image": "https://i.ibb.co/dw1vQN2R/19.png",
+        "description": "Daily short workouts that fit into your schedule, designed for home fitness enthusiasts.",
+        "size": 180,
+        "reviews": 45000,
+        "ratingAvg": 4.8,
+        "downloads": 12000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1000
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2500
+            },
+            {
+                "name": "4 star",
+                "count": 4900
+            },
+            {
+                "name": "5 star",
+                "count": 9800
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "BrainWave: Focus Music",
+        "companyName": "SoundCore Labs",
+        "image": "https://i.ibb.co/LGLXS9D/20.png",
+        "description": "Boost your concentration with scientifically crafted focus music and ambient sounds.",
+        "size": 230,
+        "reviews": 32000,
+        "ratingAvg": 4.7,
+        "downloads": 8400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 2600
+            },
+            {
+                "name": "4 star",
+                "count": 5200
+            },
+            {
+                "name": "5 star",
+                "count": 9500
+            }
+        ]
+    }
+]
