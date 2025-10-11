@@ -10,10 +10,7 @@ const AppError = () => {
 
     return (
         <div className="flex flex-col min-h-screen bg-gray-50">
-            {/* ---- Header ---- */}
-            {/* <Header /> */}
 
-            {/* ---- Main Content ---- */}
             <main className="flex flex-col items-center justify-center text-center flex-1 px-4 py-16">
                 <img
                     src={appNotFoundImage}
@@ -35,9 +32,6 @@ const AppError = () => {
                     Go Back!
                 </button>
             </main>
-
-            {/* ---- Footer ---- */}
-            {/* <Footer /> */}
         </div>
     );
 };

@@ -28,9 +28,9 @@ const MyInstall = () => {
         const sorted = [...installedApps];
 
         if (order === "high") {
-            sorted.sort((a, b) => b.downloads - a.downloads); // high → low
+            sorted.sort((a, b) => b.downloads - a.downloads); 
         } else if (order === "low") {
-            sorted.sort((a, b) => a.downloads - b.downloads); // low → high
+            sorted.sort((a, b) => a.downloads - b.downloads); 
         }
         setInstalledApps(sorted);
     };

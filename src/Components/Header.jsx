@@ -54,7 +54,7 @@ const Header = () => {
                     </NavLink>
                 </nav>
                 <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/iftekher19"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-medium px-6 py-3 rounded-md hover:opacity-90 transition"

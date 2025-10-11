@@ -20,14 +20,11 @@ const Card = ({ app }) => {
                     />
                 </div>
 
-                {/* App title */}
                 <h3 className="mt-3 text-base font-semibold text-gray-800">
                     {title}
                 </h3>
 
-                {/* Downloads and rating */}
                 <div className="flex items-center justify-between mt-3">
-                    {/* Downloads */}
                     <div className="flex items-center gap-1 bg-green-50 px-2 py-1 rounded-md">
                         <img
                             src={downloadIcon}
@@ -39,7 +36,6 @@ const Card = ({ app }) => {
                         </span>
                     </div>
 
-                    {/* Rating */}
                     <div className="flex items-center gap-1 bg-orange-50 px-2 py-1 rounded-md">
                         <img
                             src={starIcon}

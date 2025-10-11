@@ -12,14 +12,12 @@ const Home = () => {
     const { apps, loading, error } = useApps();
 
     if (loading) return <Loader />;
-    if (error) return <p className="text-red-500">Failed to load data 😢</p>;
+    if (error) return <p className="text-red-500">Failed to load data </p>;
 
-    // take the first 8 apps for "Trending"
     const trendingApps = apps.slice(0, 8);
 
     return (
         <div className="space-y-16">
-            {/* ================= Hero Section ================= */}
             <section className="text-center flex flex-col items-center justify-center mt-10">
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                     We Build{" "}
@@ -53,8 +51,6 @@ const Home = () => {
                       <span> <img className="w-6 h-6 " src={apple}/> </span>  App Store
                     </a>
                 </div>
-
-                {/* Phone image (optional if you have it in assets) */}
                 <div className="mt-6 py">
                     <img
                         src={hero}
@@ -64,7 +60,7 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* ================= Stats Section ================= */}
+            {/* state part */}
             <section className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg py-12">
                 <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-3 gap-12 text-center">
                     <div>
@@ -85,7 +81,7 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* ================= Trending Apps Section ================= */}
+            {/* trendings part */}
             <section className="text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
                     Trending Apps
