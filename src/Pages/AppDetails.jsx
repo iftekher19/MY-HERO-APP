@@ -5,6 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 import useApps from "../Hooks/useApps";
 import Loader from "../Components/Loader";
 import { Link, useParams } from "react-router";
+import { addInstall, loadInstalled } from "../Utils/LocalStorage";
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -16,41 +17,31 @@ const AppDetails = () => {
     useEffect(() => {
         if (apps.length > 0) {
             const found = apps.find((a) => a.id === parseInt(id));
-            setApp(found || null);
+            if (!found) {
+                // throw to trigger AppError via Router errorElement
+                throw new Response("Not Found", { status: 404, statusText: "App Not Found" });
+            }
+            setApp(found);
 
-            // Check localStorage
-            const installedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
-            const isInstalled = installedApps.some((x) => x.id === parseInt(id));
+            // check localStorage install
+            const installedApps = loadInstalled();
+            const isInstalled = installedApps.some((x) => x.id === found.id);
             setInstalled(isInstalled);
         }
     }, [apps, id]);
 
     const handleInstall = () => {
         if (!app) return;
-        const installedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
-        const already = installedApps.find((x) => x.id === app.id);
-        if (!already) {
-            installedApps.push(app);
-            localStorage.setItem("installedApps", JSON.stringify(installedApps));
-            toast.success(`${app.title} installed successfully!`);
-            setInstalled(true);
-        }
+        addInstall(app);
+        toast.success(`${app.title} installed successfully!`);
+        setInstalled(true);
     };
 
     if (loading) return <Loader />;
     if (error)
-        return <p className="text-center text-red-500 mt-10">Error loading data</p>;
-    if (!app)
-        return (
-            <div className="text-center mt-20">
-                <h2 className="text-2xl font-bold text-gray-800">
-                    Oops! App not found 
-                </h2>
-                <Link to="/apps" className="btn mt-6 btn-primary">
-                    Go Back
-                </Link>
-            </div>
-        );
+        throw new Response("Data Load Error", { status: 500, statusText: "Fetch Error" });
+
+    if (!app) return null; // router will show AppError
 
     return (
         <div className="space-y-10">
@@ -73,7 +64,7 @@ const AppDetails = () => {
                         {app.title}
                     </h1>
                     <p className="text-gray-500">
-                        Developed by
+                        Developed by{" "}
                         <span className="font-medium text-indigo-500">
                             {app.companyName}
                         </span>
@@ -81,10 +72,19 @@ const AppDetails = () => {
 
                     {/* Stats row */}
                     <div className="flex flex-wrap items-center gap-4 text-gray-600 mt-4">
-                        <div>Downloads:<b>{Math.round(app.downloads / 1000000)}M</b></div>
-                        <div>Average Rating: <b>{app.ratingAvg}</b></div>
-                        <div>Reviews: <b>{app.reviews}</b></div>
-                        <div>Size: <b>{app.size}MB</b></div>
+                        <div>
+                            Downloads:{" "}
+                            <b>{Math.round(app.downloads / 1000000)} M</b>
+                        </div>
+                        <div>
+                            Avg Rating: <b>{app.ratingAvg}</b>
+                        </div>
+                        <div>
+                            Reviews: <b>{app.reviews}</b>
+                        </div>
+                        <div>
+                            Size: <b>{app.size} MB</b>
+                        </div>
                     </div>
 
                     {/* Install button */}
@@ -113,7 +113,7 @@ const AppDetails = () => {
                         data={app.ratings}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
                     >
-                        <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
+                        <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
                         <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip />

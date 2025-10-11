@@ -37,10 +37,10 @@ const router = createBrowserRouter([
 
         ]
     },
-    {
-        path: "*",
-        element: <Error /> // <--- catches unknown paths / 404
-    }
+    // {
+    //     path: "*",
+    //     element: <Error /> // <--- catches unknown paths / 404
+    // }
 
     // Error handeling route
     // {
