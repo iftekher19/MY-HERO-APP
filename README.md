@@ -28,5 +28,35 @@ The project was developed as part of a React assignment focusing on advanced c
 5.  Live Search with loading skeleton animation  
 6.  Page and Search loading handled by DaisyUI Skeleton Loader  
 7.  Error Handling (404 and App Not Found Screens)  
-8.  Clean and consistent design matching Figma reference  
+8.  Clean and consistent design matching Figma reference
+
+## 💻 How to Run HERO.IO Locally
+
+Follow these steps to set up and preview HERO.IO on your local machine.
+
+> Prerequisites: [Node.js (v16+)](https://nodejs.org) and npm installed.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/HERO.IO.git
+cd HERO.IO
+
+2️⃣ Install Project Dependencies
+npm install
+This installs all required npm packages defined in package.json.
+3️⃣ Start the Development Server
+npm run dev
+If you’re using Vite, you’ll see output similar to:
+VITE v5.x.x  ready in 300ms
+➜  Local: http://localhost:5173/
+4️⃣ Explore and Test
+Once the project opens in your browser:
+
+Browse the featured apps on the Home page.
+Click into an app for detail view with chart analytics.
+“Install” / “Uninstall” apps – actions persist across reloads.
+Try the live search bar and observe smooth skeleton loading.
 
