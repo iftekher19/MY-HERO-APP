@@ -5,7 +5,15 @@ HERO.IO is a responsive web app built with React and React Router 
 Users can browse trending applications, view detailed analytics and ratings with dynamic charts, install/uninstall apps using LocalStorage, and explore all installed apps in an interactive dashboard.
 
 The project was developed as part of a React assignment focusing on advanced component structure, routing, data visualization, and state management.
+<hr>
 
+<h2>🖼️ Screenshot</h2>
+
+<p align="center">
+  <img src="https://github.com/iftekher19/Emergency_Hotline/blob/main/Screenshot%202025-11-19%20140926.png" alt="Emergency Service Directory Screenshot" width="800">
+</p>
+
+<hr>
 ---
 
 ###  Technologies Used
