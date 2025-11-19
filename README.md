@@ -10,7 +10,7 @@ The project was developed as part of a React assignment focusing on advanced c
 <h2>🖼️ Screenshot</h2>
 
 <p align="center">
-  <img src="https://github.com/iftekher19/Emergency_Hotline/blob/main/Screenshot%202025-11-19%20140926.png" alt="Emergency Service Directory Screenshot" width="800">
+  <img src="https://github.com/iftekher19/MY-HERO-APP/blob/main/hero.png" alt="HERO IO Screenshot" width="800">
 </p>
 
 <hr>
